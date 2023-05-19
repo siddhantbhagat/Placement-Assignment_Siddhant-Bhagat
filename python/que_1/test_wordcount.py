@@ -4,7 +4,7 @@ from wordcount import wordcount
 # used Pytest for testing
 
 def test_wordcount():
-    s=' write write write all the number from from from 1 to 100 '
+    s='write write write all the number from from from 1 to 100'
     assert wordcount(s) == 5
 
 '''Explanation - From the given string we can note that the most frequent words are “write” and “from” and
