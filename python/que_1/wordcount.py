@@ -1,5 +1,5 @@
 def wordcount(s : str)-> int :
-    '''this function returns the length of the word having highest frequency in a string'''
+    '''this function returns the length of the word having highest frequency in a string '''
     try :
         dict={}
         words = set(s.split())
