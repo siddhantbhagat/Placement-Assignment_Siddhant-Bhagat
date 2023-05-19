@@ -25,4 +25,4 @@ this is valid string'''
 def test_check_validity4():
     s=''
     assert check_validity(s) == 'Please enter a valid string'
-'''Explanation - empty string could have caused problem'''
+'''Explanation - empty string could have caused problem '''

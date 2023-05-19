@@ -1,5 +1,5 @@
 def check_validity(s : str)-> str :
-    '''this function returns the string indicating wether the string is valid or not'''
+    '''this function returns the string indicating wether the string is valid or not '''
     try :
         dic={}
         for i in s:
